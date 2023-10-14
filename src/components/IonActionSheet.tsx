@@ -1,6 +1,6 @@
 import { IonButton, useIonActionSheet } from "@ionic/react";
 
-export function IonActionSheet() {
+export function IonActionSheetComponent() {
   const [present] = useIonActionSheet();
 
   return (

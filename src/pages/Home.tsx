@@ -1,10 +1,10 @@
-import React from 'react'
-import { IonActionSheet } from '../components'
+import { IonActionSheetComponent, IonButtonComponent } from "../components";
 
 export default function Home() {
   return (
     <div>
-        <IonActionSheet />
+      <IonActionSheetComponent />
+      <IonButtonComponent />
     </div>
-  )
+  );
 }
