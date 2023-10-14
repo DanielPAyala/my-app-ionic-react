@@ -1,10 +1,15 @@
-import { IonActionSheetComponent, IonButtonComponent } from "../components";
+import {
+  IonActionSheetComponent,
+  IonButtonComponent,
+  IonAccordionComponent,
+} from "../components";
 
 export default function Home() {
   return (
     <div>
-      <IonActionSheetComponent />
-      <IonButtonComponent />
+      {/* <IonActionSheetComponent /> */}
+      {/* <IonButtonComponent /> */}
+      <IonAccordionComponent />
     </div>
   );
 }
