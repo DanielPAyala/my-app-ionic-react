@@ -2,6 +2,7 @@ import {
   IonActionSheetComponent,
   IonButtonComponent,
   IonAccordionComponent,
+  IonAlertComponent,
 } from "../components";
 
 export default function Home() {
@@ -9,7 +10,8 @@ export default function Home() {
     <div>
       {/* <IonActionSheetComponent /> */}
       {/* <IonButtonComponent /> */}
-      <IonAccordionComponent />
+      {/* <IonAccordionComponent /> */}
+      <IonAlertComponent />
     </div>
   );
 }
