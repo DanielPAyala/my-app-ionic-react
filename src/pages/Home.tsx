@@ -5,6 +5,7 @@ import {
   IonAlertComponent,
   IonBadgeComponent,
   IonBreadcrumbsComponent,
+  IonRippleEffectComponent,
 } from "../components";
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
       {/* <IonAccordionComponent /> */}
       {/* <IonAlertComponent /> */}
       {/* <IonBadgeComponent /> */}
-      <IonBreadcrumbsComponent />
+      {/* <IonBreadcrumbsComponent /> */}
+      <IonRippleEffectComponent />
     </div>
   );
 }
